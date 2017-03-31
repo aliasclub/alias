@@ -12,3 +12,12 @@ alias sort='LC_ALL=C sort'
 
 # Force login remote machine using password
 alias sshpw='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
+
+########
+# Tail #
+########
+
+# tailf is deprecated.
+# It may have unfixed bugs and will be removed from util-linux in March 2017.
+# Nowadays it's safe to use tail -f (from coreutils), in contrast to what the original documentation below says.
+alias tailf='tail -f'
