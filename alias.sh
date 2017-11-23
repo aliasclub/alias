@@ -4,6 +4,8 @@
 
 # Resume from break-point
 alias scpr='rsync -P --rsh=ssh'
+# Force scp using password
+alias scpw='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
 
 ########
 # Sort #
